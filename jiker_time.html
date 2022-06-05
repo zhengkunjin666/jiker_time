@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极客时间</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/jiker_time.css">
+</head>
+<body>
+    <div class="page-basic-layout">
+        <div class="page-header">
+            <div class="page-header-section container-1200">
+                <a class="header-logo" href="https://time.geekbang.org/" target="_blank"></a>
+                <div class="header-nav">
+                    <a class="header-nav-item active" href="https://time.geekbang.org/" target="_blank">
+                        <div class="nav-link">首页
+                            <img class="nav-tag" src="https://static001.geekbang.org/static/time/img/geek_elements/new2.png">
+                        </div>
+                    </a>
+                    <a class="header-nav-item" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">讲堂</div>
+                        <span class="nav-arrow-icon">></span>
+                    </a>
+                    <a class="header-nav-item" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">训练营
+                            <img class="nav-tag" src="https://static001.geekbang.org/static/time/img/geek_elements/hot2.png">
+                        </div>
+                        <span class="nav-arrow-icon">></span>
+                    </a>
+                    <a class="header-nav-item vip" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">超级会员
+                            <img class="nav-tag" src="https://static001.geekbang.org/static/time/img/geek_elements/new2.png">
+                        </div>
+                    </a>
+                    <a class="header-nav-item" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">部落</div>
+                    </a>
+                    <a class="header-nav-item" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">兑换中心</div>
+                    </a>
+                    <a class="header-nav-item enterprise" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">企业版</div>
+                    </a>
+                    <a class="header-nav-item" href="https://time.geekbang.org/resource" target="_blank">
+                        <div class="nav-link">浏览器插件
+                            <img class="nav-tag" src="https://static001.geekbang.org/static/time/img/geek_elements/new2.png">
+                        </div>
+                    </a>
+                </div>
+                <div class="header-search">
+                    <div class="search-input-wrapper">
+                        <input class="search-input" type="text" autocomplete="off" maxlength="100" placeholder="超级会员">
+                    </div>
+                    <div class="search-btn">
+                        <span class="search-iconfont"></span>
+                    </div>
+                    <div class="search-box">
+                        <div class="hotsearch">
+                            <div class="hotsearch-title">热门搜索</div>
+                            <div class="hotsearch-list">
+                                <div class="hotsearch-item">
+                                    <img class="hotsearch-img" src="https://static001.geekbang.org/static/time/img/geek_elements/hot-icon.png">
+                                    <span class="hotsearch-text">Redis</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <img class="hotsearch-img" src="https://static001.geekbang.org/static/time/img/geek_elements/hot-icon.png">
+                                    <span class="hotsearch-text">Go</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <img class="hotsearch-img" src="https://static001.geekbang.org/static/time/img/geek_elements/new-icon.png">
+                                    <span class="hotsearch-text">超级会员</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">MySQL</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">算法</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">Spring</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">docker</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">Python</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">Kafka</span>
+                                </div>
+                                <div class="hotsearch-item">
+                                    <span class="hotsearch-text">Java</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-userinfo">
+                    <a class="userinfo-login" href="https://account.geekbang.org/signin?redirect=https%3A%2F%2Ftime.geekbang.org%2F">登录</a>
+                    <a class="userinfo-login" href="https://account.geekbang.org/signup?redirect=https%3A%2F%2Ftime.geekbang.org%2F">注册</a>
+                </div>
+            </div>
+        </div>
+        <div class="page-body">
+            <div class="banner-section container-1200">
+                <div class="banner-left">
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="javascript:;">前端/移动</a></li>
+                        <li class="menu-item"><a href="avascript:;">计算机基础</a></li>
+                        <li class="menu-item"><a href="avascript:;">后端/架构</a></li>
+                        <li class="menu-item"><a href="avascript:;">AI/大数据</a></li>
+                        <li class="menu-item"><a href="avascript:;">运维/测试</a></li>
+                        <li class="menu-item"><a href="avascript:;">产品/运营</a></li>
+                        <li class="menu-item"><a href="avascript:;">管理/成长</a></li>
+                        <li class="menu-item"><a href="avascript:;">人文/兴趣</a></li>
+                        <li class="menu-item"><a href="avascript:;">面试专场</a></li>
+                        <li class="menu-item"><a href="avascript:;">个人成长</a></li>
+                    </ul>
+                </div>
+                <a class="banner-middle" href="https://time.geekbang.org/activity/promo?page_name=page_263" target="_blank">
+                    <img class="middle-img" src="https://static001.geekbang.org/resource/image/68/bb/68407f3621cd69193a88e921115112bb.png?x-oss-process=image/resize,m_fill,h_400,w_818">
+                </a>
+                <div class="banner-right">
+                    <div class="banner-right-top">
+                        <div class="login-title">注册即享 88 元红包</div>
+                        <img class="login-img" src="https://static001.geekbang.org/static/time/img/benefit@2x.33e54ad0.png">
+                        <button class="login-btn">登录 / 注册</button>
+                    </div>
+                    <div class="banner-right-line"></div>
+                    <div class="banner-right-bottom">
+                        <div class="login-content">新人首次登录 App，海量课程免费学 7 天</div>
+                        <a class="download-link" href="https://time.geekbang.org/download">下载 App 学习
+                            <span class="link-iconfont">>></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="learnpath-section container-1200">
+                <div class="learnpath-all">
+                    <div class="learnpath-title">学习路径</div>
+                    <div class="learnpath-desc">全部17个
+                        <span class="learnpath-arrow arrow">></span>
+                    </div>
+                </div>
+                <div class="learnpath-main">
+                    <div class="learnpath-prev">
+                        <span class="learnpath-arrow arrow"><</span>
+                    </div>
+                    <div class="learnpath-next">
+                        <span class="learnpath-arrow arrow">></span>
+                    </div>
+                    <div class="slider-wrapper">
+                        <div class="slider-container">
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/1c/17/1c83100965449ef7e1a5144d94744317.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">后端工程师</div>
+                                        <div class="path-desc">27门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/0c/51/0cc452e11f61a1b7d152316baccd0f51.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">C++工程师</div>
+                                        <div class="path-desc">6门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/ee/9d/ee4e027522f8f7144b12bcd3d8f6b29d.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">Java工程师</div>
+                                        <div class="path-desc">27门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/30/36/304bfd86dea2698cd6c8147ee8f63c36.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">架构师</div>
+                                        <div class="path-desc">24门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/25/d0/2541de63f52593f6ea77ae38441d46d0.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">运维工程师</div>
+                                        <div class="path-desc">31门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/99/02/996a69d911814a20eb71012fca4e2002.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">机器学习工程师</div>
+                                        <div class="path-desc">12门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="https://static001.geekbang.org/resource/image/0a/4e/0a03a1e02f4a4bee36989b5a8183274e.jpg?x-oss-process=image/resize,w_36,h_36,m_fill/format,webp" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">计算机基础知识</div>
+                                        <div class="path-desc">12门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">Go工程师</div>
+                                        <div class="path-desc">15门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">测试工程师</div>
+                                        <div class="path-desc">17门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">前端工程师</div>
+                                        <div class="path-desc">23门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">团队Leader</div>
+                                        <div class="path-desc">8门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">Python工程师</div>
+                                        <div class="path-desc">19门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">产品经理</div>
+                                        <div class="path-desc">13门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">iOS工程师</div>
+                                        <div class="path-desc">7门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">Android工程师</div>
+                                        <div class="path-desc">8门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">云原生工程师</div>
+                                        <div class="path-desc">13门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">分布式工程师</div>
+                                        <div class="path-desc">8门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">后端工程师</div>
+                                        <div class="path-desc">27门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">C++工程师</div>
+                                        <div class="path-desc">6门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="slider-list">
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">Java工程师</div>
+                                        <div class="path-desc">27门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">架构师</div>
+                                        <div class="path-desc">24门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">运维工程师</div>
+                                        <div class="path-desc">31门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">机器学习工程师</div>
+                                        <div class="path-desc">12门课程</div>
+                                    </div>
+                                </li>
+                                <li class="slider-item">
+                                    <div class="path-img">
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEVHcEyC+tLSAAAAAXRSTlMAQObYZgAAAApJREFUeNpjYQAAAAoABUouQOkAAAAASUVORK5CYII=" alt="" style="width: 36px; height: 36px;">
+                                    </div>
+                                    <div class="path-info">
+                                        <div class="path-title">计算机基础知识</div>
+                                        <div class="path-desc">12门课程</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="course-section container-1200">
+                <div class="course-left">
+                    <div class="course-header">
+                        <div class="title-wrapper">
+                            <h3 class="course-title font-20px">课程</h3>
+                            <div class="course-arrow">
+                                <div class="arrow">></div>
+                            </div>
+                        </div>
+                        <div class="desc-wrapper">
+                            <div class="course-desc">200+ 精品自学课，为你打造随身图书馆</div>
+                            <div class="vip-desc">开通超级会员，畅看 90% 课程
+                                <img class="vip-arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAgCAYAAAB6kdqOAAAAAXNSR0IArs4c6QAAAvJJREFUWEftlk1IVFEUx8+5M45jU2GRJmSSBhUVRGHB+xgRCaIPJSojpY0ECW2KoMyaGaeZQaNFQS36oFUSyUSShZvItHnvjUJJRcGsykUfRG2MstRx7ok3Hy4i583kQC/wbe//f+7vnHvOuxfBZB+ajAfmgIxOZMYKqX7hKhDWErBWp0e9aRQota6clWsZg1UQ432SN/wiU19KNyOQ4hPfAFCFLkRkfsmltiEiGW2g+OWjwPkiXccZhKpcWn8mPkMgrV0UeAx6gKgoLkbsKi21NZU3DYyng3oSqFqOfKoBCebpOsbgdX7xRE9l83DUKJn4NulESodcgVHeS0BrklBhh8Wye9Np5Us6X9grLOaMNRLRkvgmDN8tsDu6Npx4OGYEZThlzy9WF459n7xLRDUJKBixQt5OwR2KpIW6IBTwH2w/xag8UWAc5VZ2q8ogGUMgPdiza4fzxj+/ukIEhxIQOGqx0D7xzGBfOqhgsN5SEvmwCwE2Jis8DnkYdLaqb2fyZQQ0PUF+sQWBOoj0hCEKxI7IHu2G0TEoAUmGGG1NVooTYK/Tow7/yZcVkB5AC4h7iaiTCAqS1Tovu7VTRpMUaneuxanYHiCwJk4eNcmjPvrdlzVQHKpD3ExT9IAIliayhm7mKD0oHr/zM21fBWqWcZpoJE6OuM+CEXvRuu7K5uvTE/hXQHow5ZxUhlHqJaL1yYyf2uy2ui0nBz6lg+r3Vhfa2GQjJyhO9BV9xHx2W27RviXizOIburR9YXT0axCAtiWhBmVPWDQK2e+ttltxsh4AVib76n2qF3MLhDgku8PCPwEy1ZHpTc2jdB8ASrJuaj7RQETzc9bUphp7xSw/RlNdHaa6XE31/AgHBDFGeC/bB5rSJpWRhQ7k/IGm+oQRAlihjycDDIhuzWN0gepa1ScdI6LCuI9BSMzVE1b1CZcBsA4ZuCRXuNPo75taV/3SDgBYTYSPnR71Zaa+lG5WV0e2m2WinwMyqtJchf67Cv0C7oekMP5RnugAAAAASUVORK5CYII=" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-list">
+                        <div class="course-item product-item">
+                            <div class="course-pic">
+                                <img src="https://static001.geekbang.org/resource/image/f3/3f/f39acedyye5590cd614420888e049c3f.png?x-oss-process=image/resize,w_115,h_152/format,webp" alt="" class="cover" style="width: 115px; height: 152px;">
+                            </div>
+                            <div class="course-detail">
+                                <div class="course-title">从 0 开始学架构</div>
+                                <div class="course-teacher">
+                                    <div class="teacher-name">李运华</div>
+                                    <div class="identity">前阿里资深技术专家（P9）</div>
+                                </div>
+                                <div class="course-count">65讲｜124079 人已学习</div>
+                                <div class="course-price">
+                                    <img src="https://static001.geekbang.org/resource/image/ed/2e/ed364175e2efe523e4520980643f972e.png" class="pvip">
+                                    <div class="price">
+                                        <div class="sale-price">¥199</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-item product-item">
+                            <div class="course-pic">
+                                <img src="https://static001.geekbang.org/resource/image/46/31/463f24f22b4e76916c07de97e0ed4531.jpg?x-oss-process=image/resize,w_115,h_152/format,webp" alt="" class="cover" style="width: 115px; height: 152px;">
+                            </div>
+                            <div class="course-detail">
+                                <div class="course-title">大厂晋升指南</div>
+                                <div class="course-teacher">
+                                    <div class="teacher-name">李运华</div>
+                                    <div class="identity">前阿里资深技术专家（P9）</div>
+                                </div>
+                                <div class="course-count">45讲｜35954 人已学习</div>
+                                <div class="course-price">
+                                    <div class="price">
+                                        <div class="sale-price">¥199</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-item product-item">
+                            <div class="course-pic">
+                                <img src="https://static001.geekbang.org/resource/image/5b/6d/5b29aa7f66256952787f29c4af4a086d.jpg?x-oss-process=image/resize,w_115,h_152/format,webp" alt="" class="cover" style="width: 115px; height: 152px;"></div>
+                            <div class="course-detail">
+                                <div class="course-title">人人都用得上的数字化思维课</div>
+                                <div class="course-teacher">
+                                    <div class="teacher-name">付晓岩</div>
+                                    <div class="identity">极客邦科技副总裁，前阿里云资深行业解决方案总监</div>
+                                </div>
+                                <div class="course-count">12讲｜3099 人已学习</div>
+                                <div class="course-price">
+                                    <img src="https://static001.geekbang.org/resource/image/ed/2e/ed364175e2efe523e4520980643f972e.png" class="pvip">
+                                    <div class="price">
+                                        <div class="sale-price">¥99</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-item product-item">
+                            <div class="course-pic">
+                                <img src="https://static001.geekbang.org/resource/image/1c/37/1c8b37801c64a6f06911dabb64b29237.jpg?x-oss-process=image/resize,w_115,h_152/format,webp" alt="" class="cover" style="width: 115px; height: 152px;">
+                            </div>
+                            <div class="course-detail">
+                                <div class="course-title">说透元宇宙</div>
+                                <div class="course-teacher">
+                                    <div class="teacher-name">方军</div>
+                                    <div class="identity">《元宇宙超入门》作者，前创业邦执行总裁、现代传播集团 CTO</div>
+                                </div>
+                                <div class="course-count">15讲｜3211 人已学习</div>
+                                <div class="course-price">
+                                    <img src="https://static001.geekbang.org/resource/image/ed/2e/ed364175e2efe523e4520980643f972e.png" class="pvip">
+                                    <div class="price">
+                                        <div class="sale-price">¥99</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-right"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
